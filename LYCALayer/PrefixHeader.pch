@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  LYCALayer
+//
+//  Created by Joint on 2019/12/13.
+//  Copyright © 2019 Joint. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define kScreen_width [[UIScreen mainScreen] bounds].size.width
+#define kScreen_height [[UIScreen mainScreen] bounds].size.height
+
+#define kNaviHeight 88 // 812是iPhoneX的高度
+
+#define krandom(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
+#define krandomColor krandom(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+#endif /* PrefixHeader_pch */
