@@ -14,6 +14,11 @@
 		84382C4C23A8B97C0044CE08 /* LYInvertedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84382C4B23A8B97C0044CE08 /* LYInvertedViewController.m */; };
 		84382C5023A8C0110044CE08 /* LYReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84382C4F23A8C0110044CE08 /* LYReflectionView.m */; };
 		84382C5323A8CFF40044CE08 /* LYParticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84382C5223A8CFF40044CE08 /* LYParticleViewController.m */; };
+		84BA9DB223AA17CB004B781A /* LYViscousLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA9DB123AA17CB004B781A /* LYViscousLayoutViewController.m */; };
+		84BA9DBB23AA2A3B004B781A /* LYScratchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA9DBA23AA2A3B004B781A /* LYScratchView.m */; };
+		84BA9DBE23AA2ABB004B781A /* LYMosaicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA9DBD23AA2ABB004B781A /* LYMosaicViewController.m */; };
+		84BA9DC123AA2C90004B781A /* LYRGBTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA9DC023AA2C90004B781A /* LYRGBTool.m */; };
+		84BA9DC423AA2CE7004B781A /* LYPixelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BA9DC323AA2CE7004B781A /* LYPixelItem.m */; };
 		84CB923223A3230800D1D689 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CB923123A3230800D1D689 /* AppDelegate.m */; };
 		84CB923523A3230800D1D689 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CB923423A3230800D1D689 /* SceneDelegate.m */; };
 		84CB923823A3230800D1D689 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CB923723A3230800D1D689 /* ViewController.m */; };
@@ -40,6 +45,16 @@
 		84382C4F23A8C0110044CE08 /* LYReflectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYReflectionView.m; sourceTree = "<group>"; };
 		84382C5123A8CFF40044CE08 /* LYParticleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYParticleViewController.h; sourceTree = "<group>"; };
 		84382C5223A8CFF40044CE08 /* LYParticleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYParticleViewController.m; sourceTree = "<group>"; };
+		84BA9DB023AA17CB004B781A /* LYViscousLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYViscousLayoutViewController.h; sourceTree = "<group>"; };
+		84BA9DB123AA17CB004B781A /* LYViscousLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYViscousLayoutViewController.m; sourceTree = "<group>"; };
+		84BA9DB923AA2A3B004B781A /* LYScratchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYScratchView.h; sourceTree = "<group>"; };
+		84BA9DBA23AA2A3B004B781A /* LYScratchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYScratchView.m; sourceTree = "<group>"; };
+		84BA9DBC23AA2ABB004B781A /* LYMosaicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYMosaicViewController.h; sourceTree = "<group>"; };
+		84BA9DBD23AA2ABB004B781A /* LYMosaicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYMosaicViewController.m; sourceTree = "<group>"; };
+		84BA9DBF23AA2C90004B781A /* LYRGBTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYRGBTool.h; sourceTree = "<group>"; };
+		84BA9DC023AA2C90004B781A /* LYRGBTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYRGBTool.m; sourceTree = "<group>"; };
+		84BA9DC223AA2CE7004B781A /* LYPixelItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYPixelItem.h; sourceTree = "<group>"; };
+		84BA9DC323AA2CE7004B781A /* LYPixelItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPixelItem.m; sourceTree = "<group>"; };
 		84CB922D23A3230800D1D689 /* LYCALayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYCALayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CB923023A3230800D1D689 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84CB923123A3230800D1D689 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -77,6 +92,8 @@
 				840AF72D23A8B69A0089EEA8 /* XLKWavePulsLayer.m */,
 				84382C4E23A8C0110044CE08 /* LYReflectionView.h */,
 				84382C4F23A8C0110044CE08 /* LYReflectionView.m */,
+				84BA9DB923AA2A3B004B781A /* LYScratchView.h */,
+				84BA9DBA23AA2A3B004B781A /* LYScratchView.m */,
 			);
 			path = View;
 			sourceTree = SOURCE_ROOT;
@@ -120,6 +137,14 @@
 				84382C4B23A8B97C0044CE08 /* LYInvertedViewController.m */,
 				84382C5123A8CFF40044CE08 /* LYParticleViewController.h */,
 				84382C5223A8CFF40044CE08 /* LYParticleViewController.m */,
+				84BA9DB023AA17CB004B781A /* LYViscousLayoutViewController.h */,
+				84BA9DB123AA17CB004B781A /* LYViscousLayoutViewController.m */,
+				84BA9DBC23AA2ABB004B781A /* LYMosaicViewController.h */,
+				84BA9DBD23AA2ABB004B781A /* LYMosaicViewController.m */,
+				84BA9DBF23AA2C90004B781A /* LYRGBTool.h */,
+				84BA9DC023AA2C90004B781A /* LYRGBTool.m */,
+				84BA9DC223AA2CE7004B781A /* LYPixelItem.h */,
+				84BA9DC323AA2CE7004B781A /* LYPixelItem.m */,
 				84382C4D23A8BFFA0044CE08 /* View */,
 				84CB923923A3230800D1D689 /* Main.storyboard */,
 				84CB923C23A3230900D1D689 /* Assets.xcassets */,
@@ -201,10 +226,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BA9DC423AA2CE7004B781A /* LYPixelItem.m in Sources */,
+				84BA9DB223AA17CB004B781A /* LYViscousLayoutViewController.m in Sources */,
 				84382C5023A8C0110044CE08 /* LYReflectionView.m in Sources */,
 				84382C4C23A8B97C0044CE08 /* LYInvertedViewController.m in Sources */,
+				84BA9DBE23AA2ABB004B781A /* LYMosaicViewController.m in Sources */,
+				84BA9DBB23AA2A3B004B781A /* LYScratchView.m in Sources */,
 				840AF72C23A89F280089EEA8 /* LYMusicBeatViewController.m in Sources */,
 				84CB923823A3230800D1D689 /* ViewController.m in Sources */,
+				84BA9DC123AA2C90004B781A /* LYRGBTool.m in Sources */,
 				84CB923223A3230800D1D689 /* AppDelegate.m in Sources */,
 				84CB924E23A33D6B00D1D689 /* LYClockViewController.m in Sources */,
 				840AF72F23A8B69A0089EEA8 /* XLKWavePulsLayer.m in Sources */,
@@ -356,7 +386,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/Media/Desktop/LYCALayer/LYCALayer/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LYCALayer/PrefixHeader.pch";
 				INFOPLIST_FILE = LYCALayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -375,7 +405,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/Media/Desktop/LYCALayer/LYCALayer/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LYCALayer/PrefixHeader.pch";
 				INFOPLIST_FILE = LYCALayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
