@@ -33,6 +33,8 @@
             @"05 - 震动条/波纹",
             @"06 - 倒影",
             @"07 - 粒子效果",
+            @"08 - QQ粘性布局",
+            @"09 - 马赛克"
         ];
     }
     return _dataArray;
@@ -48,6 +50,8 @@
             @"LYMusicBeatViewController",
             @"LYInvertedViewController",
             @"LYParticleViewController",
+            @"LYViscousLayoutViewController",
+            @"LYMosaicViewController",
         ];
     }
     return _classNames;
